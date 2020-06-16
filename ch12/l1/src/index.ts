@@ -1,9 +1,9 @@
 function init() {
-  const button = document.querySelector("button")!;
-  button.addEventListener("click", addButtonHandler);
+  const form = document.querySelector("form")!;
+  form.addEventListener("submit", submitHandler);
 }
 
-function addButtonHandler(e: MouseEvent) {
+function submitHandler(e: Event) {
   e.preventDefault();
   const a = document.querySelector("input[name='a']") as HTMLInputElement;
   const b = document.querySelector("input[name='b']") as HTMLInputElement;
