@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ES6",
+    "strict": true,
+    "outFile": "dist/bundle.js"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
