@@ -1,3 +1,5 @@
+import { add } from "./utils";
+
 function init() {
   const form = document.querySelector("form");
   form?.addEventListener("submit", submitHandler);
@@ -12,10 +14,6 @@ function submitHandler(e: Event) {
   if (resultElement) {
     resultElement.textContent = result.toString();
   }
-}
-
-function add(a: number, b: number) {
-  return a + b;
 }
 
 init();
