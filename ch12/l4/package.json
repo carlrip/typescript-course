@@ -5,9 +5,7 @@
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "tsc",
-    "babel": "babel src/index.ts --out-file dist/bundle.js",
-    "eslint": "eslint src/index.ts"
+    "tsc": "tsc"
   },
   "author": "",
   "license": "MIT",
